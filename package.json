@@ -1,0 +1,22 @@
+{
+  "name": "twitter_app",
+  "version": "1.0.0",
+  "description": "Twitter appJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gumodi35/twitter_appJS.git"
+  },
+  "author": "Gualberto Montiel Diaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gumodi35/twitter_appJS/issues"
+  },
+  "homepage": "https://github.com/gumodi35/twitter_appJS#readme",
+  "devDependencies": {
+    "jest": "^28.1.0"
+  }
+}
