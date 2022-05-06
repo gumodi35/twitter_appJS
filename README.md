@@ -62,9 +62,13 @@ Vamos a desarrollar el primer requerimiento. Para ello usaremos el enfoque de TD
 
 ![image](https://user-images.githubusercontent.com/17634377/163697527-7908366a-57d5-40a8-933a-e3fac11b286f.png)
 
+![image](/assets/clase.gif)
+
 2. Ejecuta la prueba `npm test test/models/user.test.js` y verifica que falle. Hasta este punto el archivo `user.js` debería estar vacío.
 
 ![image](https://user-images.githubusercontent.com/17634377/163697562-2881e71a-c188-4108-9c04-5c9cd3d6ed46.png)
+
+![image](/assets/testfail.gif)
 
 3. Agrega en el archivo `user.js` la clase User, agrega el constructor para recibir los parámetros necesarios y agregar los atributos. Esto ya lo hemos realizado en los ejercicios anteriores. No olvides exportar tu clase. Se vale correr la misma prueba varias veces.
 
@@ -73,6 +77,8 @@ Vamos a desarrollar el primer requerimiento. Para ello usaremos el enfoque de TD
 4. Corre la prueba de nuevo y verifica que pase. 
 
 ![image](https://user-images.githubusercontent.com/17634377/163697627-acd13fcf-4e8b-4a9c-8dfd-67d79458be35.png)
+
+![image](/assets/testpassed.gif)
 
 5. ¡Felicidades! Has creado tu primer requerimiento usando TDD.  
 
@@ -90,7 +96,9 @@ Este requerimiento trata de modificar nuestra clase creada.
 
 Recuerda revisar la documentación de Jest para ver que puedes verificar en tus pruebas de unidad.
 
+
 2. Ejecuta tu prueba y verifica que falle.
+
 
 3. Ahora si, ve a tu clase `User` y realiza las modificaciones necesarias para cumplir con la prueba.
 
