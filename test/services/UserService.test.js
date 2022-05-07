@@ -11,6 +11,7 @@ describe("Test for UserService", () => {
         expect(user.bio).not.toBeUndefined()
     })
 
+// Agregamos la prueba para el requerimiento 2
     test("2. Get all user data in a list", () => {
         const user = UserService.create(1, "Gualberto", "Gual")
         const userInfoInList = UserService.getInfo(user)
@@ -18,6 +19,24 @@ describe("Test for UserService", () => {
         expect(userInfoInList[1]).toBe("Gualberto")
         expect(userInfoInList[2]).toBe("Gual")
         expect(userInfoInList[3]).toBe("Sin bio")
+    })
+
+// Agregamos la prueba para el requerimiento 3
+    test("3. Update username", () => {
+        const user = UserService.create(1, "Gualberto", "Gual")
+        UserService.updateUserUsername(user, "gual")
+        expect(user.username).toBe("gual")
+    })
+
+// Agregamos la prueba para el requerimiento 4
+    test("4. Given a list of users give me the list of usernames", () => {
+        const user1= UserService.create(1, "Gualberto1", "Gual")
+        const user2= UserService.create(1, "Gualberto2", "Gual")
+        const user3= UserService.create(1, "Gualberto3", "Gual")
+        const usernames = UserService.getAllUsernames([user1, user2, user3])
+        expect(usernames).toContain("Gualberto1")
+        expect(usernames).toContain("Gualberto2")
+        expect(usernames).toContain("Gualberto3")
     })
 
 })
