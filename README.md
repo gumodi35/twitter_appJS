@@ -94,17 +94,22 @@ Este requerimiento trata de modificar nuestra clase creada.
 
 ![image](https://user-images.githubusercontent.com/17634377/163697824-f2fdd67f-f6a6-4ba0-adb4-edb752fe7576.png)
 
+
 Recuerda revisar la documentación de Jest para ver que puedes verificar en tus pruebas de unidad.
 
 
 2. Ejecuta tu prueba y verifica que falle.
 
+![image](/assets/testfail2.gif)
 
 3. Ahora si, ve a tu clase `User` y realiza las modificaciones necesarias para cumplir con la prueba.
 
 ![image](https://user-images.githubusercontent.com/17634377/163697843-077d5580-4870-485e-a137-10af5643e650.png)
 
 4. Ejecuta la prueba y verifica que pase.
+
+![image](/assets/testpassed.gif)
+
 5. Felicidades ya realizaste tu segundo requerimiento usando TDD.
 
 Si notas aquí, escribir las pruebas de unidad nos permite definir nuestro requerimiento, por eso son tan importantes y útiles. 
@@ -122,11 +127,16 @@ Si notas aquí, escribir las pruebas de unidad nos permite definir nuestro reque
 ![image](https://user-images.githubusercontent.com/17634377/163697947-e06e8c03-1aa0-49b0-8014-556fca8d2901.png)
 
 3. Corre tu prueba y verifica que falle. 
+
+![image](/assets/getters.gif)
+
 4. Agrega el código que haga pasar tu prueba.
 
 ![image](https://user-images.githubusercontent.com/17634377/163697966-3d838e94-75bb-4358-919b-a46822cd375e.png)
 
 5. Corre de nuevo tu prueba y verifica que pase. 
+
+![image](/assets/testpassed%202.gif)
 
 ¿Cómo saber si tu código funciona? Por que estás validando su comportamiento mediante pruebas. Usa esta técnica para escribir software de calidad.
 
@@ -141,6 +151,17 @@ Si notas aquí, escribir las pruebas de unidad nos permite definir nuestro reque
  ![image](https://user-images.githubusercontent.com/17634377/163698022-bd77bda3-7787-4f39-aa83-e43374d38390.png)
 
 2. Corre tu prueba y verifica que falle.
+
+![image](/assets/settersTest.gif)
+
 3. Agrega el código para hacer pasar dicha prueba.
 ![image](https://user-images.githubusercontent.com/17634377/163698036-6c0dafef-579c-4df1-aeeb-e13839d1ee4e.png)
 4. Corre tu prueba y verifica que pase. 
+
+![image](/assets/biotest.gif)
+
+<center>
+
+![image](/assets/exito.webp)
+
+</center>
