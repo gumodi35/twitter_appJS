@@ -3,7 +3,7 @@ const User = require('./../../app/models/user')
 
 describe("Unit Test for User class", () => {
 
-    test('Create an User object', () => {
+    xtest('Create an User object', () => {
         // Aqui invocamos el codigo que va ejecutar el app
         const user = new User(1, "Gualberto", "Gual", "Bio")
 
@@ -21,7 +21,7 @@ describe("Unit Test for User class", () => {
     })
 
     //Agregamos una segunda prueba
-    test('Add getters', () => {
+    xtest('Add getters', () => {
         const user = new User(1, "Gualberto", "Gual", "Bio")
         expect(user.getUsername).toBe("Gualberto")
         expect(user.getBio).toBe("Bio")
@@ -30,7 +30,7 @@ describe("Unit Test for User class", () => {
     })
 
     // Agregamos la prueba de los setters
-    test('Add setters', () => {
+    xtest('Add setters', () => {
         const user = new User(1, "Gualberto", "Gual", "Bio")
         user.setUsername = "Gual"
         expect(user.username).toBe("Gual")
