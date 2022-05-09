@@ -292,6 +292,8 @@ Requerimientos:
 
 ![image](https://user-images.githubusercontent.com/17634377/163698852-df039327-e818-4d37-8e31-3205b9be611c.png)
 
+![image](/assets/sprint5.gif)
+
 <center>
 
 ![image](/assets/exito.webp)
